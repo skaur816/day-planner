@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Work Day Planner</title>
+</head>
+<body>
+    
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Planner</h1>
+        <p>Keep track of your tasks for the day in a simplified way!</p>
+        <p id="currentDay" class = "lead"></p>
+    </header>
+
+    <div class = "planner-block" id="containerPlanner">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Put your tasks in by the hour!</th>
+                    <th>Save by clicking <i class="fas fa-save fa-sm"></i></th>
+                </tr>
+            </thead>
+            <tr id="9-hour" data-time="9" class="schedule-slot">
+                <td class = "cell-time">9 AM</td>
+                <td class = "cell-info"><textarea id="9am-text"></textarea></td>
+                <td class="cell-save" id="9am"><i class = "fa fa-save fa-2x"></i></td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
