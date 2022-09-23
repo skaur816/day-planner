@@ -77,7 +77,7 @@ textarea {
 
 .cell-save {
     border: 3px solid #7a4959;
-    background-color: #B35642;
+    background-color:khaki;
     cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ textarea {
 }
 
 .present {
-    background-color: #ff6961;
+    background-color: khaki;
     color: white;
 }
 
