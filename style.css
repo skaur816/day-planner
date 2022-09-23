@@ -1,0 +1,136 @@
+body {
+    font-family: 'Finlandica', sans-serif;
+      font-size: 16px;
+      line-height: 1;
+      background-color: #CBC3E3;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color:#7a8959;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 800px;
+    height: 800px;
+    }
+
+textarea {
+    border:none;    
+    resize:none;
+    color: #000000;
+    width:100%;
+    max-width: 100%;
+    background-color: inherit;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+}
+
+.description {
+    white-space: pre-wrap;
+}
+
+.cell-time {
+    background-color: #7a6959;
+  }
+
+.cell-time, .cell-save {
+    border: 3px solid #7a4959;
+    height: 50px;
+    width: 10%;
+    font-weight: bolder;
+}
+
+.cell-info {
+    align-items: center;
+    border: 3px solid #7a4959;
+    height: 50px;
+    width: 80%;
+    text-align: left;
+    padding: none;
+}
+
+.planner-block table {
+    width: 100%;
+    text-align: center;
+}
+
+.schedule-slot {
+    width: 100%;
+    text-align: center;
+}
+
+.time-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cell-save {
+    border: 3px solid #7a4959;
+    background-color: #B35642;
+    cursor: pointer;
+}
+
+.cell-save:hover {
+    background-color: rgb(133, 121, 19);
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+}
+
+.hour {
+    background-color: #ffffff;
+    color: black;
+    border-top: 1px dashed black;
+}
+
+.past {
+    background-color: #d3d3d3;
+    color:white;
+}
+
+.present {
+    background-color: #ff6961;
+    color: white;
+}
+
+.future {
+    background-color: #77dd77;
+    color: white;
+}
+
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+}
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th {
+    height: 5rem;
+    width: 10rem;
+    text-align: center;
+  }
