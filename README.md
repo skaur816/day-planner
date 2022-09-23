@@ -28,6 +28,8 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+## Deployed Link
+https://skaur816.github.io/day-planner/
 
 ## Screenshot 
 ![Day planner SCRNSHOT](https://user-images.githubusercontent.com/99299194/191884773-311488e6-4f71-4ff1-b1d3-27594647430b.jpg)
